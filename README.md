@@ -13,3 +13,7 @@ This script will create an importable calendar ".ics" file to manually recreate 
 - Left Sidebar **"Other calendars" > + > Create new calendar >** Name & Create a new calendar for birthdays
 - Left Sidebar **"Other calendars" > + > Import >** Select your export.ics file; Select your new calendar
 - **Done!** The color can be customized in the left sidebar
+
+> [!CAUTION]
+Future additions to your contacts won't sync automatically.<br>
+You can either add them to your birthday calendar manually, or delete the newly created calendar every once in a while, and repeat this process.
