@@ -10,7 +10,7 @@ def create_entry(name, mon, day):
     return ('BEGIN:VEVENT\nSUMMARY:' + name + ' - Birthday\nDTSTART;VALUE=DATE:2025' + mon + day +
             '\nDTEND;VALUE=DATE:2025' + mon + day + '\nRRULE:FREQ=YEARLY\nTRANSP:TRANSPARENT\nEND:VEVENT\n')
 
-with open("export.ics", "a") as f:
+with open("export.ics", "a", encoding="utf-8") as f:
     f.write("BEGIN:VCALENDAR\nVERSION:2.0\nCALSCALE:GREGORIAN\n")
 
     df = pd.read_csv('contacts.csv', delimiter=',', header=0)
